@@ -1,0 +1,21 @@
+.body1 {
+    padding: 0;
+    background-color: rgb(6, 56, 85);
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.cont {
+    display: flex;
+    background-color: rgb(49, 147, 228);
+    color: rgb(183, 233, 241);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tit1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-style: italic;
+}
