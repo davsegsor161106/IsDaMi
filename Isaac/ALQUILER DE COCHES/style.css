@@ -1,0 +1,14 @@
+.contenedor-padre {
+    display: flex;         
+    gap: 20px;             
+    justify-content: center; 
+    flex-direction: row;
+    
+}
+
+.contenedor-hijo {
+    align-items: center;
+    padding: 50px;
+    
+    
+}
