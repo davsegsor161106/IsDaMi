@@ -8,6 +8,7 @@
 
 .cont {
     display: flex;
+    flex-direction: row;
     background-color: rgb(49, 147, 228);
     color: rgb(183, 233, 241);
     padding-left: 5%;
@@ -18,4 +19,18 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
     font-style: italic;
+}
+
+.cont1 {
+    background-color: rgb(49, 147, 228);
+    display: block;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.img1 {
+    width: 50%;
+    height: 80%;
 }
