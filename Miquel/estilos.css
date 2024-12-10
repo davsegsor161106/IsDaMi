@@ -20,7 +20,6 @@
     text-align: left;
     font-style: italic;
 }
-<<<<<<< HEAD
 
 .cont1 {
     background-color: rgb(49, 147, 228);
@@ -30,10 +29,49 @@
     margin-right: 2%;
 }
 
-
-.img1 {
-    width: 50%;
-    height: 80%;
+.registro {
+    border: solid 1px white;
+    height: 100%;
 }
-=======
->>>>>>> 056ed63ad5cb8d54ae5b82d1538404c7ed664988
+
+.reg1 {
+    background-color: #608BC1;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    color: white;
+}
+
+.login-form label {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #95b5ca;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 120px;
+	height: 60px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.login-form button:hover {
+    background-color: #60b1e4;
+}
+
