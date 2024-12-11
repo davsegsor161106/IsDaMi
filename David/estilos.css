@@ -1,0 +1,49 @@
+.container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-image: url(LOGOTIPO2.png);
+    width: 100%;
+    height: 500px;
+}
+
+.caja {
+    margin-left: 1000px;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.tx1 {
+    font-family: Verdana;
+}
+.tx2 {
+    color: green;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+
+
+
+.boton1 {
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.entrar {
+    background-color: rgb(0, 255, 51);
+    color: black;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    
+}
+.entrar:hover {
+    background: rgb(0, 148, 12);
+}
