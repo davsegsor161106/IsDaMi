@@ -63,7 +63,7 @@ video {
   color: #eee0e0;
   letter-spacing: 2px;
   /* -- CHAT GPT -- */
-  background: linear-gradient(90deg, #4a4a4a, #bdbdbd);
+  background: linear-gradient(90deg, #604b4b, #bcaeae);
   /* -- CHAT GPT -- */
   border-radius: 8px;
   cursor: pointer;
@@ -88,4 +88,14 @@ video {
   margin: 0;
   padding: 20px;
   border-bottom: 4px solid #bdbdbd;
+}
+
+.link {
+  font-size: 48px;
+  font-weight: 700;
+  color: #eee0e0;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
