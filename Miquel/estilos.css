@@ -1,6 +1,6 @@
 .body1 {
     padding: 0;
-    background-color: rgb(6, 56, 85);
+    background-image: url(nigg.jpg);
     margin-left: 0;
     margin-right: 0;
 
@@ -9,8 +9,10 @@
 .cont {
     display: flex;
     flex-direction: row;
-    background-color: rgb(49, 147, 228);
-    color: rgb(183, 233, 241);
+    background-color: rgb(250, 38, 38);
+    color: rgb(255, 255, 255);
+    height: 100%;
+    margin-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -22,56 +24,37 @@
 }
 
 .cont1 {
-    background-color: rgb(49, 147, 228);
-    display: block;
+    background-color: rgb(250, 38, 38);
+    flex-direction: row;
+    display: flex;
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-.registro {
-    border: solid 1px white;
-    height: 100%;
+.cont2 {
+    position: relative;
+   
 }
 
-.reg1 {
-    background-color: #608BC1;
-    color: white;
-    width: 30%;
-    text-align: center;
+.img1 {
+    height: 96%;
+    width: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+
 }
 
-.login-form {
-    display: flex;
-    gap: 12px;
+.cont3 {
+    border: solid, black, 2px;
     flex-direction: column;
-    color: white;
-}
-
-.login-form label {
-    text-align: left;
-    font-weight: bold;
     margin-left: 3%;
 }
 
-.login-form input {
-    padding: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
+.txt1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
 }
 
-.login-form button {
-    padding: 10px;
-    background-color: #95b5ca;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    width: 120px;
-	height: 60px;
-    margin-top: 3%;
-    margin-left: 3%;
-}
 
-.login-form button:hover {
-    background-color: #60b1e4;
-}
 
