@@ -9,7 +9,7 @@
 .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin: 0 15px;
+    margin: 15px;
     font-size: 40px;
     transition: color 0.3s;
     font-family: 'Times New Roman', Times, serif;
@@ -24,4 +24,21 @@ display: flex;
     display: flex;
     padding: 20px;
     border-bottom: 2px solid black;
+}
+.btn-alquilar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tablas{
+    height: 20px;
+    width: 20px;
+    border-collapse: collapse;
+    border-spacing: 0cap;
 }
