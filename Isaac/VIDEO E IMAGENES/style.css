@@ -57,7 +57,7 @@ video {
 /* -- CHAT GPT -- */
 
 .boton {
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 40px;
   font-weight: bold;
   color: #eee0e0;
@@ -67,6 +67,10 @@ video {
   /* -- CHAT GPT -- */
   border-radius: 8px;
   cursor: pointer;
+}
+
+.botoncito {
+
 }
 
 .eslogan {
