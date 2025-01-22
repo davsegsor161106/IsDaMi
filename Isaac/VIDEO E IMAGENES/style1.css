@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(90deg, #604b4b, #bcaeae);
+    background: linear-gradient(90deg, #87affa, #3373fd);
     padding: 10px 20px;
 
   }
@@ -41,4 +41,6 @@ display: flex;
     width: 20px;
     border-collapse: collapse;
     border-spacing: 0cap;
+    background-color: #648feb;
+    border: 3px solid black
 }
