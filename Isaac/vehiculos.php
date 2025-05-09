@@ -47,6 +47,25 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                // Consultar los datos
+                $sql = "SELECT * FROM coche";
+                $result = $conn->query($sql);
+                if ($result === false) {
+                die("Error en la consulta: " . $conn->error);
+                }
+                if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                echo " <tr>
+                <td>{$row['matrícula']}</td>
+                <td>{$row['modelo']}</td>
+                <td>{$row['foto']}</td>
+                <td>{$row['codgama']}</td>
+                <td>{$row['coste']}</td>
+                </tr>";
+                }
+                }
+                ?>
                     <tr>
                         <td>1234ABC</td>
                         <td>Audi A4</td>

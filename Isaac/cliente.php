@@ -47,6 +47,25 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                // Consultar los datos
+                $sql = "SELECT * FROM cliente";
+                $result = $conn->query($sql);
+                if ($result === false) {
+                die("Error en la consulta: " . $conn->error);
+                }
+                if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                echo " <tr>
+                <td>{$row['codcli']}</td>
+                <td>{$row['nombre']}</td>
+                <td>{$row['apellido']}</td>
+                <td>{$row['direccion']}</td>
+                <td>{$row['mail']}</td>
+                </tr>";
+                }
+                }
+                ?>
                     <tr>
                         <td>1</td>
                         <td>Vicente</td>
