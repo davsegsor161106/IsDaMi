@@ -57,7 +57,7 @@
                 if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
                 echo " <tr>
-                <td>{$row['matrícula']}</td>
+                <td>{$row['matricula']}</td>
                 <td>{$row['modelo']}</td>
                 <td>{$row['foto']}</td>
                 <td>{$row['codgama']}</td>

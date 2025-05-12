@@ -50,6 +50,28 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                // Consultar los datos
+                $sql = "SELECT * FROM gama";
+                $result = $conn->query($sql);
+                if ($result === false) {
+                die("Error en la consulta: " . $conn->error);
+                }
+                if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                echo " <tr>
+                <td>{$row['codgama']}</td>
+                <td>{$row['nomgama']}</td>
+                <td>{$row['stock']}</td>
+                <td>{$row['precio']}</td>
+                <td>{$row['combustible']}</td>
+                <td>{$row['motor']}</td>
+                <td>{$row['plazas']}</td>
+                <td>{$row['maletas']}</td>
+                </tr>";
+                }
+                }
+                ?>
                     <tr>
                         <td>T1</td>
                         <td>4 x 4</td>

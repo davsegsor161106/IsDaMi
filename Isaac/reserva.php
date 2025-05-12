@@ -52,6 +52,30 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                // Consultar los datos
+                $sql = "SELECT * FROM reserva";
+                $result = $conn->query($sql);
+                if ($result === false) {
+                die("Error en la consulta: " . $conn->error);
+                }
+                if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                echo " <tr>
+                <td>{$row['codreserva']}</td>
+                <td>{$row['fecha_res']}</td>
+                <td>{$row['f_inicio']}</td>
+                <td>{$row['f_fin']}</td>
+                <td>{$row['dias']}</td>
+                <td>{$row['lugar']}</td>
+                <td>{$row['importe']}</td>
+                <td>{$row['gama']}</td>
+                <td>{$row['cod_cliente']}</td>
+                <td>{$row['f_devolucion']}</td>
+                </tr>";
+                }
+                }
+                ?>
                     <tr>
                         <td>1</td>
                         <td>02-05-2025</td>
