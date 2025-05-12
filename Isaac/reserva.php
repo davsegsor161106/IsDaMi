@@ -26,10 +26,10 @@
     <header class="navbar">
         <div class="logo">🚀 DRIVE & GO 🚀</div>
         <nav class="nav-links">
-            <a href="vehiculos.html"><b>Vehículos 🚘</b></a>
-            <a href="cliente.html">Clientes © </a>
-            <a href="gamas.html">Gamas</a>
-            <a href="reserva.html">Reservas ✆</a>
+            <a href="vehiculos.php"><b>Vehículos 🚘</b></a>
+            <a href="cliente.php">Clientes © </a>
+            <a href="gamas.php">Gamas</a>
+            <a href="reserva.php">Reservas ✆</a>
         </nav>
     </header>
     
